@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    min-width: 666px;
+    height: 1500px;
+}
+a {
+    text-decoration: none;
+}
+div {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+input {
+    outline: none;
+    border: 0;
+}
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+/*圆角样式*/
+.bor_radius {
+    border-radius: 8px;
+}
+.bor_radius_top {
+    border-radius: 8px 8px 0 0;
+}
+.bor_radius_button {
+    border-radius: 0 0 8px 8px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
